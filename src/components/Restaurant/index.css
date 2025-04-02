@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+@media (max-width: 767px) {
+  .Tabs {
+    overflow-y: scroll;
+  }
+}
+
+@media (min-width: 768px) {
+  .Text {
+    display: none;
+  }
+}
+.row {
+  display: flex;
+}
+.Items {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 30px;
+  padding-left: 5px;
+  margin-right: 25px;
+  padding-bottom: 5px;
+}
+.Tabs {
+  list-style-type: none;
+  display: flex;
+}
+.tabunderline {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: red;
+  width: 180px;
+  height: 90px;
+  background-color: transparent;
+  border-width: 0px;
+}
+.tabnormal {
+  color: black;
+  width: 180px;
+  height: 90px;
+  background-color: transparent;
+  border-width: 0px;
+}
