@@ -67,3 +67,7 @@
   font-weight: bold;
   margin-top: 40px;
 }
+
+.row {
+  display: flex;
+}
